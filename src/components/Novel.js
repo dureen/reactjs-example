@@ -1,19 +1,17 @@
 import {Container, Card, Button} from 'react-bootstrap';
-import img4 from '../assets/images/novels/novel-4.jpg';
-import img5 from '../assets/images/novels/novel-5.jpg';
-import img6 from '../assets/images/novels/novel-1.jpg';
 
+import img from '../assets/images/logo192.png';
 
 const Novel = () => {
     return (
         <div>
-            <Container className='bg-light bg-opacity-25'>
+            <Container className='bg-light bg-opacity-25 py-3'>
                 <h3>Novel</h3>
                 <Container>
                     <div class="row row-cols-3">
                     <div class="col">
                             <Card bg='dark' text='light'>
-                                <Card.Img variant="top" src={img4} />
+                                <Card.Img variant="top" src={img} />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
@@ -26,7 +24,7 @@ const Novel = () => {
                         </div>
                         <div class="col">
                             <Card bg='dark' text='light'>
-                                <Card.Img variant="top" src={img5} />
+                                <Card.Img variant="top" src={img} />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
@@ -39,7 +37,7 @@ const Novel = () => {
                         </div>
                         <div class="col">
                             <Card bg='dark' text='light'>
-                                <Card.Img variant="top" src={img6} />
+                                <Card.Img variant="top" src={img} />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
                                     <Card.Text>
