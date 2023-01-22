@@ -1,0 +1,15 @@
+import {Container} from 'react-bootstrap';
+
+const Contact = () => {
+  return (
+    <div className='mb-2'>
+      <Container className='p-0'>            
+      <div class="p-5 bg-light rounded-3">
+        <h1>Contact Me</h1>
+      </div>
+      </Container>
+    </div>
+  );
+}
+  
+  export default Contact;
