@@ -1,25 +1,40 @@
-# React + Bootstrap Starter
+# React + Bootstrap Example
 
-Simple React application bootstrapped with Create React App + Bootstrap + React Bootstrap.
+> **Status: Archived** – Learning project from 2022–2023.
 
-> **Recommended GitHub repo name:** `react-bootstrap-starter`
+Simple React application using **Create React App** + Bootstrap + React Router.
 
-> **Note:** Create React App is no longer actively recommended by the React team. For new projects consider Vite + React.
+## Important Notes
 
-## Available Scripts
+- This project uses **Create React App**, which is no longer recommended by the React team.
+- For new projects, use **Vite + React** instead.
+- Dependencies are from 2022–2023 and may contain outdated packages.
 
-| Command           | Description                        |
-|-------------------|------------------------------------|
-| `npm start`       | Run development server             |
-| `npm run build`   | Build for production               |
-| `npm test`        | Run tests                          |
-
-## Stack
+## Features
 
 - React 18
-- Bootstrap 5
-- React Bootstrap
-- React Router (dev dependency)
+- Bootstrap 5 + React Bootstrap
+- React Router (Home, Blogs, Contact, 404 page)
+- Custom components (Comic, Novel, Navigation, etc.)
+
+## Requirements
+
+- Node.js 16+
+
+## How to Run
+
+```bash
+npm install
+npm start
+```
+
+## Scripts
+
+| Command         | Description              |
+|-----------------|--------------------------|
+| `npm start`     | Development server       |
+| `npm run build` | Production build         |
+| `npm test`      | Run tests                |
 
 ## License
 
