@@ -1,7 +1,8 @@
 {
-  "name": "reactjs-example",
+  "name": "react-bootstrap-starter",
   "version": "0.1.0",
   "private": true,
+  "description": "React + Bootstrap starter using Create React App",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
